@@ -1,0 +1,23 @@
+.main {
+    border: 1px solid #c3c3c3;
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+.main div {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.red {
+    background-color: red;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
