@@ -1,8 +1,4 @@
-.container {
-    display: flex;
-    border: 1px solid black;
-    max-width: 350px;
-}
+
 
 .item {
     color: white;
@@ -36,3 +32,8 @@
 .baseline {
     align-items: baseline;
 }
+
+.w100 {
+    flex-basis: 100px;
+}
+
