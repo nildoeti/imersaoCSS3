@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estrutura-basica-e-pratica-com-align-self.css">
+    <title>Estrutura básica e prática com align self</title>
+</head>
+<body>
+    <!-- 
+        ALIGN-SELF
+        estabelece alinhamento individual sobre determinado item
+        VALOR PADRÃO
+        auto: é o padrão e respeita definições do align-item do container
+        flex-start: início do container
+        flex-end: final do container
+        center: centro de acordo com o eixo
+        strech: ocupa todo o espaço
+        baseline: faz uso da base da tipografia
+     -->
+     
+    <h2><code>rown => align-self: auto;  align-item: center</code></h2>
+     <section class="flex-container align-container">
+         <div class="item auto">AAA</div>
+         <div class="item auto">123</div>
+         <div class="item auto">
+            estabelece alinhamento individual sobre determinado item
+         </div>
+         <div class="item auto">4</div>
+     </section>
+
+     <h2><code></code></h2>
+     <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">
+            estabelece alinhamento individual sobre determinado item
+        </div>
+        <div class="item end">4</div>
+    </section>
+
+    <h2><code></code></h2>
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">AAAbbbbbbbb</div>
+        <div class="item end">AAAcccccccc</div>
+        <div class="item stretch">
+            estabelece alinhamento individual sobre determinado item
+        </div>
+   </section>
+
+   <h2><code>column => align-self: auto;  align-item: center</code></h2>
+   <section class="flex-container align-container direction end">
+       <div class="item auto">AAA</div>
+       <div class="item auto">123</div>
+       <div class="item auto">
+          estabelece alinhamento individual sobre determinado item
+       </div>
+       <div class="item auto">4</div>
+   </section>
+
+   <h2><code></code></h2>
+   <section class="flex-container direction">
+      <div class="item center">AAA</div>
+      <div class="item start">123</div>
+      <div class="item stretch">
+          estabelece alinhamento individual sobre determinado item
+      </div>
+      <div class="item end">4</div>
+  </section>
+
+  <h2><code></code></h2>
+  <section class="flex-container direction">
+      <div class="item center">AAA</div>
+      <div class="item start">AAAbbbbbbbb</div>
+      <div class="item end">AAAcccccccc</div>
+      <div class="item stretch">
+          estabelece alinhamento individual sobre determinado item
+      </div>
+ </section>
+</body>
+</html>
