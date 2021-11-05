@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/flex-basis.css">
+    <title>Estrutura básica do flex basis</title>
+</head>
+<body>
+    <!--
+        FLEX BASIS
+        estabelece o tamanho inicial do item antes da distribuição de espaços
+        dentro deles.
+
+        VALORES POSSIVEIS
+        auto: caso o ítem não tenha tamanho
+        px, %, em...: são valores exatos
+        0 (zero): relação definida pelo flex-grow
+     -->
+
+    <h2><code>flex-basis: auto</code></h2>
+     <div class="flex-container">
+        <div class="items bauto">A</div>
+        <div class="items">BBB</div>
+        <div class="items">C</div>
+        <div class="items">DDD</div>
+     </div>
+
+
+    <h2><code>flex-grow: 1</code></h2>
+    <div class="flex-container">
+        <div class="items bauto fg-1">A</div>
+        <div class="items">BBB</div>
+        <div class="items">C</div>
+        <div class="items fg-2">DDD</div>
+    </div>
+
+
+    <h2><code>flex-grow: 0</code></h2>
+    <div class="flex-container">
+        <div class="items b-0 fg-1">AAAAAAAAAAAAAAAA</div>
+        <div class="items b-0 fg-1">BBB</div>
+        <div class="items b-0 fg-1">C</div>
+        <div class="items b-0 fg-1">DDD</div>
+    </div>
+
+    <h2><code>fleX-basis - width</code></h2>
+    <div class="flex-container">
+        <div class="items w100">AAA</div>
+        <div class="items w100">BBB</div>
+        <div class="items w100">C</div>
+        <div class="items w100">DDDdddddd</div>
+    </div>
+
+</body>
+</html>
