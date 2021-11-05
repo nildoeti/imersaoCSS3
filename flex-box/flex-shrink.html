@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/flex-shrink.css">
+    <title>Estrutura básica do flex shrink</title>
+</head>
+<body>
+    <!-- 
+        FLEX-SHRINK
+        Define a redução e tamanho dos itens em um flex-box.
+     -->
+     <h2><code>flex-shrink: 1;</code></h2>
+     <div class="flex-container">
+         <div class="item s-1 fg-1">A</div>
+         <div class="item s-1 fg-1">B</div>
+         <div class="item s-1 fg-1">C</div>
+         <div class="item s-1 fg-1">D</div>
+         <div class="item s-1 fg-1">E</div>
+     </div>
+
+     <div class="flex-container">
+         <div class="item s-1 fg-1">A</div>
+         <div class="item s-1 fg-1">Um simples parágrafo</div>
+         <div class="item s-1 fg-1">C</div>
+         <div class="item s-1 fg-1">Um simples parágrafo</div>
+         <div class="item s-1 fg-1">E</div>
+     </div>
+
+     <h2><code>flex-shrink: 0; flex-basis: 100px;</code></h2>
+     <div class="flex-container">
+         <div class="item s-0 fg-1">A</div>
+         <div class="item s-0 fg-1">Um simples parágrafo</div>
+         <div class="item s-0 fg-1">C</div>
+         <div class="item s-0 fg-1">Um simples parágrafo</div>
+         <div class="item s-0 fg-1">Um simples parágrafo</div>
+         <div class="item s-0 fg-1">E</div>
+        <div class="item s-0 fg-1">Um simples parágrafo</div>
+     </div>
+
+     <h2><code>flex-shrink: mix; flex-basis: 100px;</code></h2>
+     <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-2 fg-1">Um simples parágrafo</div>
+        <div class="item s-2 fg-1">C</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="item ">A</div>
+        <div class="item">B</div>
+        <div class="item s-4">Um simples parágrafo</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+</body>
+</html>
