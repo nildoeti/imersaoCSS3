@@ -1,0 +1,41 @@
+.flex-container {
+    border: 1px solid black;
+    display: flex;
+    max-width: 350px;
+    margin-bottom: 10px;;
+}
+
+.item {
+    background-color: orange;
+    font-size: 24px;
+    margin: 5px;
+    text-align: center;
+}
+
+.s-1 {
+    flex-shrink: 1;
+}
+
+.fg-1 {
+    flex-grow: 1;
+}
+
+.s-0 {
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+.s-2 {
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+
+.s-3 {
+    flex-shrink: 3;
+    flex-basis: 100px
+}
+
+.s-4 {
+    flex-shrink: 1;
+}
