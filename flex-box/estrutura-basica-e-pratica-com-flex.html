@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estrutura-basica-e-pratica-com-flex.css">
+    <title>Estrutura básica e prática com flex</title>
+</head>
+<body>
+    <!-- 
+        FLEX
+        É a propriedade de abreviação de escritas para as propriedades:
+        grow, shrink e basis.
+     -->
+
+     <h2><code>flex: 1</code></h2>
+     <p>
+         <code>/* grow = 1, shrink = 1, basis = 0 */</code>
+     </p>
+     <div class="flex-container">
+         <div class="item flex-1">A</div>
+         <div class="item flex-1">BBB</div>
+         <div class="item flex-1">C</div>
+         <div class="item flex-1">EF</div>
+         <div class="item flex-1">D</div>
+     </div>
+
+     <h2><code>flex: 2</code></h2>
+     <p>
+         <code>/* grow = 2, shrink = 1, basis = 0 */</code>
+     </p>
+     <div class="flex-container">
+         <div class="item flex-2">A</div>
+         <div class="item flex-2">BBB</div>
+         <div class="item flex-2">C</div>
+         <div class="item flex-2">EF</div>
+         <div class="item flex-2">D</div>
+     </div>
+
+     <h2><code>width ignorado -> basis = 0</code></h2>
+     <p>
+     </p>
+     <div class="flex-container">
+         <div class="item largura">A</div>
+         <div class="item largura">BBB</div>
+         <div class="item largura">C</div>
+         <div class="item largura">EF</div>
+         <div class="item largura">D</div>
+     </div>
+</body>
+</html>
