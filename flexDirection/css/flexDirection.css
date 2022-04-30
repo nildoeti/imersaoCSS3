@@ -1,0 +1,14 @@
+.flex-container {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container div {
+    background-color: aliceblue;
+    font-size: 30px;
+    margin: 10px;
+    line-height: 75px;
+    text-align: center;
+    width: 100px;
+}
