@@ -1,0 +1,14 @@
+.flex-container {
+    background-color: rgb(21, 90, 151);
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container div {
+    background-color: aliceblue;
+    font-size: 30px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+}
