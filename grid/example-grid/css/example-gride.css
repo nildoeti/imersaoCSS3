@@ -1,0 +1,29 @@
+
+.cor-1 {background-color: brown;}
+.cor-2 {background-color: rgb(34, 145, 67);}
+.cor-3 {background-color: rgb(42, 116, 165);}
+.cor-4 {background-color: rgb(170, 204, 49);}
+.cor-5 {background-color: rgb(88, 129, 84);}
+
+.my-container div {
+    padding: 30px;
+}
+
+.my-container {
+    display: grid;
+    grid-template-rows: 30px 50px 70px 30px 10px;
+    grid-template-columns: repeat(2, 100px);
+
+    gap: 50px;
+    row-gap: 50px;
+}
+
+.cor-4 {
+    grid: 2;
+    grid-row: 2;
+}
+
+.cor-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
