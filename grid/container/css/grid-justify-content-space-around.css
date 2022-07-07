@@ -1,1 +1,15 @@
-grid-justify-content-space-around.html
+.grid-container {
+    background-color: black;
+    display: grid;
+    gap: 10px;
+    justify-content: space-around;
+    grid-template-columns: 50px 50px 50px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: blanchedalmond;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
