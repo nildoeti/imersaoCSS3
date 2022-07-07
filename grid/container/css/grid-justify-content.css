@@ -1,0 +1,15 @@
+.grid-container {
+    background-color: brown;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: bisque;
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+}
